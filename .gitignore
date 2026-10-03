@@ -1,0 +1,31 @@
+# Secrets & local config
+.env
+.env.*
+!.env.example
+
+# Databases (contain biometric templates / personal data)
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# Editor / OS / tooling
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+
+# AI-assistant session transcripts & scratch notes
+[[]develop.txt[]]
+frontend/20??-??-??-*.txt
+*.zip
